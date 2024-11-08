@@ -1,11 +1,10 @@
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.NullAndEmptySource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -36,6 +35,30 @@ class BlankTest {
             Arguments.of("not blank", false)
         );
     }
+
+    // Field Source: starting with JUnit 5.11
+    // update pom.xml to 5.11.x and add relevant dependency
+
+    static List<String> cities = Arrays.asList("Madrid", "Rome", "Paris", "London");
+
+    @ParameterizedTest
+    @FieldSource("cities")
+    void isBlank_ShouldReturnFalseWhenTheArgHasAtLeastOneCharacter(String arg){
+        assertFalse(Blank.isBlank(arg));
+    }
+
+    // A different way to write Field Source
+    static String[] isEmpty_ShouldReturnFalseWhenTheArgHasAtLeastOneCharacter = {
+        "Spain", "Italy", "France", "Engliand"
+    };
+
+    @ParameterizedTest
+    @FieldSource
+    void setIsEmpty_ShouldReturnFalseWhenTheArgHasAtLeastOneCharacter(String arg){
+        assertFalse(arg.isEmpty());
+    }
+
+
 
 }
 
