@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e4c95e-854d-4a64-91fc-866caad8026a" name="Changes" comment="JUnit tutorial @MethodSource">
+    <list default="true" id="d2e4c95e-854d-4a64-91fc-866caad8026a" name="Changes" comment="JUnit tutorial @FieldSource starting from JUnit 5.11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BlankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <command value="mvn clean compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStrings">
+  <component name="RunManager" selected="JUnit.BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStringsArgProvider">
     <configuration name="BlankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTutorial" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,6 +74,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BlankTest" />
       <option name="METHOD_NAME" value="isBlank_ShouldReturnTrueForNullOrBlankStrings(java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStringsArgProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTutorial" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlankTest" />
+      <option name="METHOD_NAME" value="isBlank_ShouldReturnTrueForNullOrBlankStringsArgProvider(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,23 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersTest.isOdd_ShouldReturnTrueForOddNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTutorial" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumbersTest" />
-      <option name="METHOD_NAME" value="isOdd_ShouldReturnTrueForOddNumbers(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStringsArgProvider" />
         <item itemvalue="JUnit.BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" />
         <item itemvalue="JUnit.MonthTest" />
         <item itemvalue="JUnit.BlankTest" />
         <item itemvalue="JUnit.NumbersTest" />
-        <item itemvalue="JUnit.NumbersTest.isOdd_ShouldReturnTrueForOddNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -151,13 +150,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731072072141</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JUnit tutorial @FieldSource starting from JUnit 5.11">
+      <option name="closed" value="true" />
+      <created>1731072840376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731072840376</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JUnit tutorial project starter and write application code in Calculator.java" />
     <MESSAGE value="JUnit tutorial MonthTest Parameterized Test w/ EnumSource" />
     <MESSAGE value="JUnit tutorial @MethodSource" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnit tutorial @MethodSource" />
+    <MESSAGE value="JUnit tutorial @FieldSource starting from JUnit 5.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit tutorial @FieldSource starting from JUnit 5.11" />
   </component>
 </project>
