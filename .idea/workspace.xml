@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e4c95e-854d-4a64-91fc-866caad8026a" name="Changes" comment="JUnit tutorial project starter and write application code in Calculator.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MonthTest.java" afterDir="false" />
+    <list default="true" id="d2e4c95e-854d-4a64-91fc-866caad8026a" name="Changes" comment="JUnit tutorial MonthTest Parameterized Test w/ EnumSource">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BlankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MonthTest">
+  <component name="RunManager" selected="JUnit.BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStrings">
     <configuration name="BlankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTutorial" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,11 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTutorial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="multiply" />
+      <option name="MAIN_CLASS_NAME" value="BlankTest" />
+      <option name="METHOD_NAME" value="isBlank_ShouldReturnTrueForNullOrBlankStrings(java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlankTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" />
         <item itemvalue="JUnit.MonthTest" />
         <item itemvalue="JUnit.BlankTest" />
         <item itemvalue="JUnit.NumbersTest" />
         <item itemvalue="JUnit.NumbersTest.isOdd_ShouldReturnTrueForOddNumbers" />
-        <item itemvalue="JUnit.CalculatorTest.multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -134,11 +135,20 @@
       <option name="project" value="LOCAL" />
       <updated>1730196902621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JUnit tutorial MonthTest Parameterized Test w/ EnumSource">
+      <option name="closed" value="true" />
+      <created>1730285982294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730285982294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JUnit tutorial project starter and write application code in Calculator.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnit tutorial project starter and write application code in Calculator.java" />
+    <MESSAGE value="JUnit tutorial MonthTest Parameterized Test w/ EnumSource" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit tutorial MonthTest Parameterized Test w/ EnumSource" />
   </component>
 </project>
